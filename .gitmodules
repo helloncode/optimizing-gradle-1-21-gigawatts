@@ -1,0 +1,3 @@
+[submodule "project/android-build-eval"]
+	path = project/android-build-eval
+	url = git@github.com:uber-common/android-build-eval.git
