@@ -1,11 +1,11 @@
 # Workflow name
-name: Master
+name: Main
 
 # Build run in each PR
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -28,4 +28,3 @@ jobs:
     - name: Build with Gradle
       working-directory: ./demo-project/uber-project
       run: ./gradlew assembleDebug
-      
