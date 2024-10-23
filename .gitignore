@@ -1,0 +1,35 @@
+# Gradle files
+.gradle/
+build/
+
+# IntelliJ/Android Studio
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Local configuration
+local.properties
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log Files
+*.log
+
+# Presentation temporary files
+presentation/**/*.pptx.tmp
+presentation/**/*.key
+presentation/**/*.pdf.tmp
+
+# Notes and temporary files
+notes/
+*.tmp
+*.bak
+
+# Keep the submodule clean
+# (Submodule has its own .gitignore)
