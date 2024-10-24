@@ -1,0 +1,7 @@
+clean_build {
+    title = "Clean Build"
+    tasks = ["assembleDebug"]
+    jvm-args = ["-Xmx16g"]
+    gradle-args = ["--parallel"]
+    cleanup-tasks = ["clean"]
+}
